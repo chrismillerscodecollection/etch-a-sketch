@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    padding-bottom: 10px;
+}
+
+.board {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-square {
+    background-color: whitesmoke;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+.reset {
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+}
